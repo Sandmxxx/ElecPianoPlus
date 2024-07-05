@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_C3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_C3up">
+    <property name="geometry">
+     <rect>
+      <x>93</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}
+
+</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_E3">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+e</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_G3">
+    <property name="geometry">
+     <rect>
+      <x>314</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+t</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_A3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_B3">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+u</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_F4">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}
+</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+a</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_C4">
+    <property name="geometry">
+     <rect>
+      <x>512</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+i</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_E4">
+    <property name="geometry">
+     <rect>
+      <x>644</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+p</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_B4">
+    <property name="geometry">
+     <rect>
+      <x>908</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+f</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_D4">
+    <property name="geometry">
+     <rect>
+      <x>578</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+o</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_G4">
+    <property name="geometry">
+     <rect>
+      <x>776</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+s</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_A4">
+    <property name="geometry">
+     <rect>
+      <x>842</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+d</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_D3up">
+    <property name="geometry">
+     <rect>
+      <x>159</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_F3up">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_G3up">
+    <property name="geometry">
+     <rect>
+      <x>358</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_A3up">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_C4up">
+    <property name="geometry">
+     <rect>
+      <x>555</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_D4up">
+    <property name="geometry">
+     <rect>
+      <x>621</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_F4up">
+    <property name="geometry">
+     <rect>
+      <x>752</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_G4up">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_A4up">
+    <property name="geometry">
+     <rect>
+      <x>886</x>
+      <y>500</y>
+      <width>44</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_D3">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>500</y>
+      <width>66</width>
+      <height>365</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+    </property>
+    <property name="text">
+     <string>
+
+
+
+
+
+
+
+
+
+w</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1500</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/pic/pic/back2.jpg);</string>
+    </property>
+    <widget class="QPushButton" name="drun4">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>275</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum4.png);
+ border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>N</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="drum1">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>185</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum1.png);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>C</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="drum2">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>185</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum2.png);
+ border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>V</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="drum5">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>275</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum5_1.jpg);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>M</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="drum3">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>185</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum3_1.png);
+
+ border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>B</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="drum6">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>275</y>
+       <width>150</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/drum6.jpg);
+ border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="shortcut">
+      <string>,</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>1450</x>
+       <y>0</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/close1.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>384</y>
+       <width>1500</width>
+       <height>116</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/pic/pic/backg1.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>50</y>
+       <width>681</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 24pt &quot;Bahnschrift Light&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-style:italic; color:#dadada;&quot;&gt;Electronic Piano&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="recordBegin">
+     <property name="geometry">
+      <rect>
+       <x>1310</x>
+       <y>170</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(164, 202, 182);
+border-image: url(:/pic/pic/rec_beg2.png);
+}
+
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="recordEnd">
+     <property name="geometry">
+      <rect>
+       <x>1310</x>
+       <y>240</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 10px;
+
+border-image: url(:/pic/pic/rec_end.png);
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="recordPlay">
+     <property name="geometry">
+      <rect>
+       <x>1310</x>
+       <y>310</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 10px;
+
+border-image: url(:/pic/pic/rec_play.png);
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_infor">
+     <property name="geometry">
+      <rect>
+       <x>1290</x>
+       <y>100</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>drun4</zorder>
+    <zorder>drum1</zorder>
+    <zorder>drum2</zorder>
+    <zorder>drum3</zorder>
+    <zorder>drum6</zorder>
+    <zorder>drum5</zorder>
+    <zorder>pushButton_2</zorder>
+    <zorder>label_2</zorder>
+    <zorder>recordBegin</zorder>
+    <zorder>recordEnd</zorder>
+    <zorder>recordPlay</zorder>
+    <zorder>lable_infor</zorder>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>1500</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget{border-image: url(:/pic/pic/back.png);
+}</string>
+    </property>
+    <widget class="QPushButton" name="btn_F3">
+     <property name="geometry">
+      <rect>
+       <x>248</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+r</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_C5">
+     <property name="geometry">
+      <rect>
+       <x>974</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+g</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_C5up">
+     <property name="geometry">
+      <rect>
+       <x>1018</x>
+       <y>0</y>
+       <width>44</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_D5">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+h</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_E5">
+     <property name="geometry">
+      <rect>
+       <x>1106</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+j</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_F5">
+     <property name="geometry">
+      <rect>
+       <x>1172</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+k</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_G5">
+     <property name="geometry">
+      <rect>
+       <x>1238</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+l</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_A5">
+     <property name="geometry">
+      <rect>
+       <x>1304</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+z</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_B5">
+     <property name="geometry">
+      <rect>
+       <x>1370</x>
+       <y>0</y>
+       <width>66</width>
+       <height>365</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color: rgb(234, 234, 234);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+
+
+
+x</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_D5up">
+     <property name="geometry">
+      <rect>
+       <x>1083</x>
+       <y>0</y>
+       <width>44</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+=</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_F5up">
+     <property name="geometry">
+      <rect>
+       <x>1216</x>
+       <y>0</y>
+       <width>44</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+[</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_G5up">
+     <property name="geometry">
+      <rect>
+       <x>1282</x>
+       <y>0</y>
+       <width>44</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+]</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_A5up">
+     <property name="geometry">
+      <rect>
+       <x>1348</x>
+       <y>0</y>
+       <width>44</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{background-color: rgb(54, 54, 54);border:2px groove gray;border-radius:10px;padding:2px 4px;border-style: outset;color: rgb(255, 255, 255);}</string>
+     </property>
+     <property name="text">
+      <string>
+
+
+
+
+
+
+\</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_F3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+     </property>
+     <property name="text">
+      <string>F3</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_C5">
+     <property name="geometry">
+      <rect>
+       <x>994</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>C5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_D5">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>D5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_E5">
+     <property name="geometry">
+      <rect>
+       <x>1124</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>E5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_F5">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>F5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_G5">
+     <property name="geometry">
+      <rect>
+       <x>1258</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>G5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_A5">
+     <property name="geometry">
+      <rect>
+       <x>1324</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>A5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_B5">
+     <property name="geometry">
+      <rect>
+       <x>1390</x>
+       <y>330</y>
+       <width>25</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{background-color:rgb(251, 185, 87);}</string>
+     </property>
+     <property name="text">
+      <string>B5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <zorder>btn_F3</zorder>
+    <zorder>btn_C5</zorder>
+    <zorder>btn_D5</zorder>
+    <zorder>btn_C5up</zorder>
+    <zorder>btn_E5</zorder>
+    <zorder>btn_F5</zorder>
+    <zorder>btn_G5</zorder>
+    <zorder>btn_A5</zorder>
+    <zorder>btn_B5</zorder>
+    <zorder>btn_D5up</zorder>
+    <zorder>btn_F5up</zorder>
+    <zorder>btn_G5up</zorder>
+    <zorder>btn_A5up</zorder>
+    <zorder>label_F3</zorder>
+    <zorder>label_C5</zorder>
+    <zorder>label_D5</zorder>
+    <zorder>label_E5</zorder>
+    <zorder>label_F5</zorder>
+    <zorder>label_G5</zorder>
+    <zorder>label_A5</zorder>
+    <zorder>label_B5</zorder>
+   </widget>
+   <widget class="QLabel" name="label_D3">
+    <property name="geometry">
+     <rect>
+      <x>136</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>D3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_C3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>C3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_E3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>E3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_G3">
+    <property name="geometry">
+     <rect>
+      <x>334</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>G3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_A3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>A3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_B3">
+    <property name="geometry">
+     <rect>
+      <x>464</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(147, 181, 207);}</string>
+    </property>
+    <property name="text">
+     <string>B3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_C4">
+    <property name="geometry">
+     <rect>
+      <x>532</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>C4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_D4">
+    <property name="geometry">
+     <rect>
+      <x>598</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>D4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_E4">
+    <property name="geometry">
+     <rect>
+      <x>663</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>E4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_F4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>F4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_G4">
+    <property name="geometry">
+     <rect>
+      <x>795</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>G4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_A4">
+    <property name="geometry">
+     <rect>
+      <x>861</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>A4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_B4">
+    <property name="geometry">
+     <rect>
+      <x>928</x>
+      <y>830</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{background-color:rgb(164, 202, 182);}</string>
+    </property>
+    <property name="text">
+     <string>B4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>widget_3</zorder>
+   <zorder>widget</zorder>
+   <zorder>btn_C3</zorder>
+   <zorder>btn_D3</zorder>
+   <zorder>btn_C3up</zorder>
+   <zorder>btn_E3</zorder>
+   <zorder>btn_G3</zorder>
+   <zorder>btn_A3</zorder>
+   <zorder>btn_B3</zorder>
+   <zorder>btn_F4</zorder>
+   <zorder>btn_C4</zorder>
+   <zorder>btn_E4</zorder>
+   <zorder>btn_B4</zorder>
+   <zorder>btn_D4</zorder>
+   <zorder>btn_G4</zorder>
+   <zorder>btn_A4</zorder>
+   <zorder>btn_D3up</zorder>
+   <zorder>btn_F3up</zorder>
+   <zorder>btn_G3up</zorder>
+   <zorder>btn_A3up</zorder>
+   <zorder>btn_C4up</zorder>
+   <zorder>btn_D4up</zorder>
+   <zorder>btn_F4up</zorder>
+   <zorder>btn_G4up</zorder>
+   <zorder>btn_A4up</zorder>
+   <zorder>label_D3</zorder>
+   <zorder>label_C3</zorder>
+   <zorder>label_E3</zorder>
+   <zorder>label_G3</zorder>
+   <zorder>label_A3</zorder>
+   <zorder>label_B3</zorder>
+   <zorder>label_C4</zorder>
+   <zorder>label_D4</zorder>
+   <zorder>label_E4</zorder>
+   <zorder>label_F4</zorder>
+   <zorder>label_G4</zorder>
+   <zorder>label_A4</zorder>
+   <zorder>label_B4</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
